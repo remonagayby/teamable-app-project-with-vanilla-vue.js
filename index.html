@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamable</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="display-view">
+        <h1>User Profile</h1>
+        <img src="resources/image.jpeg" alt="">
+
+        <span>Name: </span><b>Anna Smith</b>
+        <hr>
+
+        <span>Email: </span><b>anna.smith@example.com</b>
+        <hr>
+
+        <span>Interests: </span><b>coding</b>
+        <hr>
+
+        <button onclick="handleEditProfile()">Edit Profile</button>
+    </div>
+
+    <div id="edit-view">
+        <h1>User Profile</h1>
+        <img src="resources/image.jpeg" alt="">
+
+        <span>Name: </span>
+        <input type="text" placeholder="Anna Smith">
+        <hr>
+
+        <span>Email: </span>
+        <input type="email" placeholder="anna.smith@example.com">
+        <hr>
+
+        <span>Interests: </span>
+        <input type="text" placeholder="coding">
+        <hr>
+
+        <button onclick="handleUpdateProfile()">Update Profile</button>
+    </div>
+</body>
+</html>
