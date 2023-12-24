@@ -32,6 +32,11 @@ input {
     padding: 10px;
 }
 
+.datepicker {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 #edit-view {
     display: none;
 }
